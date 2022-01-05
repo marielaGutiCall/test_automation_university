@@ -11,7 +11,7 @@ public class LoginPage {
     public LoginPage(WebDriver driver){
         this._driver = driver;
     }
-    public void serUserName(String username){
+    public void setUserName(String username){
         _driver.findElement(_userField).sendKeys(username);
     }
     public void setPassword(String password){
